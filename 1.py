@@ -24,6 +24,6 @@ def start_ffmpeg(input_url, output_dir):
     ]
     subprocess.Popen(ffmpeg_cmd)
 
-input_url = "rtmp://140.99.130.9/live/stream"
+input_url = "rtmp://dddd/live/stream"
 output_dir = "stream"
 start_ffmpeg(input_url, output_dir)
